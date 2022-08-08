@@ -38,6 +38,11 @@ class MyThread extends RecursiveAction {
                     Arrays.sort(arr);
                     
                     array[index[i]] = arr[mid];
+                    
+                    // Coordinate class for x and y with getX() and getY() 
+                    // array of indices 1D array , for storing the inner pixels index position 
+                    // arr has to be if type int for pixel 
+                    // Image[index[i].getX()][index[i].getY()] = arr[mid]
 
                 }
             
